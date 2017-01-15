@@ -1,0 +1,62 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+  width: 30px; height: 30px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+#logo {
+  display: flex;
+}
+
+
+h1 {
+  
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.barra {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.list {
+  position: relative;
+  display: flex;
+list-style: none;
+
+}
+
+#userguide:hover #invisible {
+display: block;
+position: absolute;
+list-style: none;
+padding: 0;
+right: 0;
+width: 470px;
+
+}
+
+#botonGris:hover {
+  background-color: #D1CACA;
+
+}
+
+
+a {
+padding-right: 20px;
+text-decoration: none;
+color: grey;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+#invisible {
+  display: none;
+  color: black;
+
+  
+}
